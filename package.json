@@ -1,0 +1,20 @@
+{
+  "name": "http-module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "pract.js",
+  "scripts": {
+    "start": "npm Express.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "lodash": "^4.17.21",
+    "mongodb": "^6.6.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}

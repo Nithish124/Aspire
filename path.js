@@ -1,0 +1,31 @@
+const path=require('path');
+//basename()
+path1=path.basename('/Users/nithi/c.cpp');
+console.log(path1);
+path2=path.basename('/Users/nithi/c.cpp','.cpp');
+console.log(path2);
+//dirname()
+path3=path.dirname('/Users/nithi/c.cpp');
+console.log(path3);
+path4=path.dirname('readme.cd');
+console.log(path4);
+console.log(__filename);
+path5=path.dirname(__filename);
+path6=path.dirname(__dirname);
+console.log(path5);
+//extname()
+path7=path.extname('/Users/nithi/c.cpp');
+console.log(path7);
+paths_array=[ 
+    "/home/user/website/index.html", 
+    "/home/user/website/style.css", 
+    "/home/user/website/bootstrap.css", 
+    "/home/user/website/main.js", 
+    "/home/user/website/contact_us.html", 
+    "/home/user/website/services.html", 
+] 
+paths_array.forEach(filepath=>{
+    if(path.extname(filepath)=='.html'){
+        console.log(filepath)
+    }
+});

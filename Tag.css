@@ -1,0 +1,21 @@
+.mainarticle{
+    background-color:brown;
+    padding : 5px;
+}
+.subarticle1{
+    background-color: aquamarine;
+}
+.subarticle2{
+    background-color: aqua;
+}
+.subarticle3{
+    background-color: rgb(193, 152, 152);
+}
+aside {
+    width: 30%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+    font-style: italic;
+    background-color: lightgray;
+}

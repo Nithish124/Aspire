@@ -1,0 +1,16 @@
+console.log("hi nithish")
+setTimeout(()=>{
+    console.log("hi man")
+});
+console.log("hello man")
+console.log("hello man")
+console.log("hello man")
+console.log("hello man")
+console.log("hello man")
+console.log("hello man")
+console.log("hello man")
+console.log("hello man")
+console.log("hello man")
+console.log("hello man")
+console.log("hello man")
+console.log("hello man")
